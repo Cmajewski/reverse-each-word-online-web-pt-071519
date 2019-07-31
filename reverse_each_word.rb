@@ -7,5 +7,5 @@ string.reverse_each {|letter|reversed_sentence<<letter}
 #reverse_string=''
 #string.collect |letter| do
   #reverse_string<<string.unshift
-  puts reversed_sentence
+  reversed_sentence
 end
