@@ -8,4 +8,5 @@ string=sentence.split(" ")
 #string.collect |letter| do
   #reverse_string<<string.unshift
   #reversed_sentence
+  string
 end
