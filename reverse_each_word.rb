@@ -6,4 +6,3 @@ string=sentence.split('')
 #string.each |letter| do
   #reverse_string<<string.unshift
 end
-end
