@@ -2,7 +2,8 @@
 def reverse_each_word(sentence)
 string=sentence.split(" ")
 #reversed_sentence=[]
-string.collect {|letter|letter.reverse.join}
+string.collect {|letter|letter.reverse}
+string.join(" ")
   #letter.shift
 #reverse_string=''
 #string.collect |letter| do
