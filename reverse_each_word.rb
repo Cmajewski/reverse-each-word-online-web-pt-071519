@@ -1,8 +1,8 @@
 #string is "Hello there how are you"
 def reverse_each_word(sentence)
-string=sentence.split(" ")
+string=sentence.split("")
 #reversed_sentence=[]
-string.collect {|letter|letter.reverse.join}
+string.collect {|letter|letter.reverse}
 
   #letter.shift
 #reverse_string=''
