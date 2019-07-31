@@ -8,4 +8,5 @@ string.each {|letter|reversed_sentence<<letter.reverse}
 #string.collect |letter| do
   #reverse_string<<string.unshift
   #reversed_sentence
+  reversed_sentence.join(" ")
 end
